@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Target ECMAScript 5 for broader browser compatibility
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "esModuleInterop": true, // Enable default import and export behavior
+    "allowSyntheticDefaultImports": true, // Allow importing modules using default imports
+    "strict": true, // Enable strict type checking
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names
+    "noFallthroughCasesInSwitch": true, // Check for missing 'break' in switch statements
+    "module": "esnext", // Use ECMAScript modules
+    "moduleResolution": "node", // Use Node.js module resolution
+    "resolveJsonModule": true, // Allow importing JSON modules
+    "isolatedModules": true, // Ensure each file is treated as a separate module
+    "noEmit": true, // Don't emit compiled output (since this is a React project)
+    "jsx": "react-jsx" // Use React JSX syntax for TypeScript files
+  },
+  "include": [
+    "src" // Include all TypeScript files within the 'src' directory
+  ]
+}
